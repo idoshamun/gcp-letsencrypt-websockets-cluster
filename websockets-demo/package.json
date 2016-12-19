@@ -1,0 +1,12 @@
+{
+  "name": "websockets-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "The Elegant Monkeys Ltd.",
+  "dependencies": {
+    "ws": "^1.1.1"
+  }
+}
