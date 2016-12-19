@@ -21,6 +21,13 @@ The [pre-deploy.sh](pre-deploy.sh) script creates a new bucket to store all the 
 the path to the bucket as a project metadata and generates a `dhparam` that will later be used by Nginx.
 
 All the scripts are fully parameterized and the parameters can be found at the beginning of the scripts.
+
+##### Please notice
+
+You can't deploy the application server before you already have the certificates stored in GCS.
+So when first issuing the certificates, point your DNS to the external ip of the Let's Encrypt instance.
+After issuing, you can continue with the deployment and point the DNS to the static ip of the `app-lb`.
+
 ___
 
 ### Credits
