@@ -1,7 +1,10 @@
-# Secured WebSockets cluster on GCP with Let's Encrypt certs
+# Secured WebSockets cluster on GCP with Let's Encrypt
 
 This project contains bash scripts for deploying a websockets cluster to Google Cloud Platform secured with 
 Let's Encrypt SSL certificates.
+
+There is a [medium post](https://blog.elegantmonkeys.com/deploying-websockets-cluster-to-gcp-with-lets-encrypt-certificates-5ebb7fc1e245#.9bi4qp3b5)
+which explains the solution architecture and how to run the code, if you want to get more details.
 
 Please make sure [Google Cloud SDK](https://cloud.google.com/sdk/) is installed before using these scripts.
 
